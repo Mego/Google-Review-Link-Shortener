@@ -37,7 +37,7 @@ parseUri.options = {
 	}
 };
   </script>
-  </script>
+  <script>
   function shortenGoogleURL(url) {
       var parse_result = parseUri(url);
       return `${parse_result.protocol}://${parse_result.host}${parse_result.directory}?q=${parse_result.queryKey.q}#${parse_result.anchor}`;
